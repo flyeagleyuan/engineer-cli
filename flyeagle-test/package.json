@@ -1,0 +1,9 @@
+{
+  "bin":{
+    "flyeagle-test": "bin/index.js"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
