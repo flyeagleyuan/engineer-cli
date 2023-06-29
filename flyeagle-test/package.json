@@ -1,9 +1,12 @@
 {
-  "bin":{
+  "name":"flyeagle-test",
+  "bin": {
     "flyeagle-test": "bin/index.js"
   },
   "main": "index.js",
   "dependencies": {
+    "engineer001-cli": "^1.0.0",
+    "flyeagle-test-lib": "^1.1.0",
     "yargs": "^17.7.2"
   }
 }
