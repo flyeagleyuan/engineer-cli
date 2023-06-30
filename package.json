@@ -1,13 +1,13 @@
 {
-  "name": "engineer-cli",
-  "version": "1.0.0",
-  "description": "",
+  "name": "engineer001-cli",
+  "version": "1.0.1",
+  "description": "test",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin":{
-    "flyeagle-test": "bin/index.js"
+  "bin": {
+    "flyeagle-test": "flyeagle-test/bin/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/flyeagleyuan/engineer-cli/issues"
   },
-  "homepage": "https://github.com/flyeagleyuan/engineer-cli#readme"
+  "homepage": "https://github.com/flyeagleyuan/engineer-cli#readme",
+  "dependencies": {
+    "engineer001-cli": "^1.0.0"
+  }
 }

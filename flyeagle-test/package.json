@@ -1,5 +1,6 @@
 {
   "name":"flyeagle-test",
+  "version": "1.0.1",
   "bin": {
     "flyeagle-test": "bin/index.js"
   },
