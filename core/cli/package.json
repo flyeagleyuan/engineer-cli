@@ -1,0 +1,31 @@
+{
+  "name": "@engineer-cli/core",
+  "version": "1.0.0",
+  "description": "core",
+  "author": "feixiao.yuan <feixiao.yuan@linkedsmile.com>",
+  "homepage": "https://github.com/flyeagleyuan/engineer-cli/tree/main/packages/core#readme",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@engineer-cli/utils": "file:../../utils/utils",
+    "import-local": "^3.1.0",
+    "npmlog": "^7.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flyeagleyuan/engineer-cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/flyeagleyuan/engineer-cli/issues"
+  }
+}
