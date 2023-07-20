@@ -22,5 +22,9 @@
   },
   "bugs": {
     "url": "https://github.com/flyeagleyuan/engineer-cli/issues"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "38b2f7ac29af81e49a6bad751da1e20ce6e26d64"
 }
