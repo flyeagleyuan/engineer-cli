@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-engineer001-cli@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/engineer001-cli/-/engineer001-cli-1.0.0.tgz#90a17aa4a45b59aaa0a36e41bb38af63bfa98e62"
-  integrity sha512-FidVmcfsNVPnEMb9oNixTBj39uj3ELkSU9kfJNYIUkDl4GoIwU3wUaOSsuHwzUWh6EZYTApZiQhemJe6G7sVCw==
+"engineer001-cli@^1.0.0":
+  "integrity" "sha512-FidVmcfsNVPnEMb9oNixTBj39uj3ELkSU9kfJNYIUkDl4GoIwU3wUaOSsuHwzUWh6EZYTApZiQhemJe6G7sVCw=="
+  "resolved" "https://registry.npmjs.org/engineer001-cli/-/engineer001-cli-1.0.0.tgz"
+  "version" "1.0.0"

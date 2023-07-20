@@ -1,0 +1,26 @@
+{
+  "name": "@engineer-cli/utils",
+  "version": "1.0.0",
+  "description": "utils",
+  "author": "feixiao.yuan <feixiao.yuan@linkedsmile.com>",
+  "homepage": "https://github.com/flyeagleyuan/engineer-cli/tree/main/packages/utils#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flyeagleyuan/engineer-cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/utils.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/flyeagleyuan/engineer-cli/issues"
+  }
+}
