@@ -5,7 +5,7 @@
   "author": "feixiao.yuan <feixiao.yuan@linkedsmile.com>",
   "homepage": "https://github.com/flyeagleyuan/engineer-cli/tree/main/packages/core#readme",
   "license": "MIT",
-  "main": ".lib/index.js",
+  "main": "./lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -26,5 +26,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "be5c1dc93c0200bc3a9d7baeef7c09c7aa3c99a8"
+  "gitHead": "8117d317fe349bb1c365a7d9ab89b374d324b362"
 }
