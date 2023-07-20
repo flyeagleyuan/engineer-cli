@@ -1,5 +1,5 @@
 {
-  "name": "@engineer-cli/core",
+  "name": "@engineer-cli-dev/core",
   "version": "0.0.6",
   "description": "core",
   "author": "feixiao.yuan <feixiao.yuan@linkedsmile.com>",
@@ -26,5 +26,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "2d10cde6d14b1aa36f043777ba238eb6430a8ac7"
+  "gitHead": "2cf5fa0c38e6f0667624ddbc5591579f9bea23a2"
 }

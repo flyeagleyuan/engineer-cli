@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@engineer-cli/utils@file:../../utils/utils":
+"@engineer-cli-dev/utils@file:../../utils/utils":
   version "0.0.0"
 
 abort-controller@^3.0.0:
