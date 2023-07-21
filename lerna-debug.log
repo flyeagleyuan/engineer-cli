@@ -6,22 +6,22 @@
 0 silly argv }
 1 notice cli v6.1.0
 2 verbose rootPath /Users/flyeagleyuan/workspace/engineer-cli
-3 verbose session 53d75d2befff6ab5
+3 verbose session b8f097df255f348f
 4 verbose user-agent lerna/6.1.0/node@v18.12.0+arm64 (darwin)
 5 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '6.1.0' }
 6 verbose rootPath /Users/flyeagleyuan/workspace/engineer-cli
-7 info current version 0.0.8
+7 info current version 0.0.9
 8 silly isAnythingCommitted
 9 verbose isAnythingCommitted 1
 10 silly getCurrentBranch
 11 verbose currentBranch main
 12 silly remoteBranchExists
 13 silly isBehindUpstream
-14 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 1
+14 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 0
 15 silly hasTags
 16 verbose hasTags true
-17 silly git-describe.sync "v0.0.8-1-gb56abe4" => {"lastTagName":"v0.0.8","lastVersion":"v0.0.8","refCount":"1","sha":"b56abe4","isDirty":false}
-18 info Looking for changed packages since v0.0.8
+17 silly git-describe.sync "v0.0.9-1-g64e5d53" => {"lastTagName":"v0.0.9","lastVersion":"v0.0.9","refCount":"1","sha":"64e5d53","isDirty":false}
+18 info Looking for changed packages since v0.0.9
 19 silly checking diff packages/core
 20 silly found diff in packages/core/package.json
 21 verbose filtered diff [ 'packages/core/package.json' ]
@@ -30,8 +30,8 @@
 24 verbose filtered diff [ 'packages/utils/package.json' ]
 25 verbose updated @engineer-cli-dev/core
 26 verbose updated @engineer-cli-dev/utils
-27 verbose git-describe undefined => "v0.0.8-1-gb56abe4"
-28 silly git-describe parsed => {"lastTagName":"v0.0.8","lastVersion":"v0.0.8","refCount":"1","sha":"b56abe4","isDirty":false}
+27 verbose git-describe undefined => "v0.0.9-1-g64e5d53"
+28 silly git-describe parsed => {"lastTagName":"v0.0.9","lastVersion":"v0.0.9","refCount":"1","sha":"64e5d53","isDirty":false}
 29 info execute Skipping releases
 30 silly lifecycle No script for "preversion" in "engineer001-cli", continuing
 31 silly lifecycle No script for "preversion" in "@engineer-cli-dev/core", continuing
@@ -48,10 +48,10 @@
 39 silly gitAdd   'lerna.json',
 39 silly gitAdd   'package-lock.json'
 39 silly gitAdd ]
-40 silly gitCommit v0.0.9
-41 verbose git [ 'commit', '-m', 'v0.0.9' ]
-42 silly gitTag v0.0.9
-43 verbose git [ 'tag', 'v0.0.9', '-m', 'v0.0.9' ]
+40 silly gitCommit v0.0.10
+41 verbose git [ 'commit', '-m', 'v0.0.10' ]
+42 silly gitTag v0.0.10
+43 verbose git [ 'tag', 'v0.0.10', '-m', 'v0.0.10' ]
 44 silly lifecycle No script for "postversion" in "@engineer-cli-dev/core", continuing
 45 silly lifecycle No script for "postversion" in "@engineer-cli-dev/utils", continuing
 46 silly lifecycle No script for "postversion" in "engineer001-cli", continuing
@@ -61,7 +61,7 @@
 50 notice Skipping all user and access validation due to third-party registry
 51 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
 52 silly getCurrentSHA
-53 verbose getCurrentSHA 00a59cecb80b891f49c3d97303386ef244b4d19c
+53 verbose getCurrentSHA 0931a96f848d33d0b1451bd50b592f9a64e22986
 54 silly lifecycle No script for "prepublish" in "engineer001-cli", continuing
 55 silly lifecycle No script for "prepare" in "engineer001-cli", continuing
 56 silly lifecycle No script for "prepublishOnly" in "engineer001-cli", continuing
