@@ -6,22 +6,22 @@
 0 silly argv }
 1 notice cli v6.1.0
 2 verbose rootPath /Users/flyeagleyuan/workspace/engineer-cli
-3 verbose session b8f097df255f348f
+3 verbose session e230ab9cb4e614cf
 4 verbose user-agent lerna/6.1.0/node@v18.12.0+arm64 (darwin)
 5 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '6.1.0' }
 6 verbose rootPath /Users/flyeagleyuan/workspace/engineer-cli
-7 info current version 0.0.9
+7 info current version 0.0.10
 8 silly isAnythingCommitted
 9 verbose isAnythingCommitted 1
 10 silly getCurrentBranch
 11 verbose currentBranch main
 12 silly remoteBranchExists
 13 silly isBehindUpstream
-14 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 0
+14 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 1
 15 silly hasTags
 16 verbose hasTags true
-17 silly git-describe.sync "v0.0.9-1-g64e5d53" => {"lastTagName":"v0.0.9","lastVersion":"v0.0.9","refCount":"1","sha":"64e5d53","isDirty":false}
-18 info Looking for changed packages since v0.0.9
+17 silly git-describe.sync "v0.0.10-1-g4f23510" => {"lastTagName":"v0.0.10","lastVersion":"v0.0.10","refCount":"1","sha":"4f23510","isDirty":false}
+18 info Looking for changed packages since v0.0.10
 19 silly checking diff packages/core
 20 silly found diff in packages/core/package.json
 21 verbose filtered diff [ 'packages/core/package.json' ]
@@ -30,60 +30,60 @@
 24 verbose filtered diff [ 'packages/utils/package.json' ]
 25 verbose updated @engineer-cli-dev/core
 26 verbose updated @engineer-cli-dev/utils
-27 verbose git-describe undefined => "v0.0.9-1-g64e5d53"
-28 silly git-describe parsed => {"lastTagName":"v0.0.9","lastVersion":"v0.0.9","refCount":"1","sha":"64e5d53","isDirty":false}
+27 verbose git-describe undefined => "v0.0.10-1-g4f23510"
+28 silly git-describe parsed => {"lastTagName":"v0.0.10","lastVersion":"v0.0.10","refCount":"1","sha":"4f23510","isDirty":false}
 29 info execute Skipping releases
-30 silly lifecycle No script for "preversion" in "engineer001-cli", continuing
+30 silly lifecycle No script for "preversion" in "engineer-cli-dev", continuing
 31 silly lifecycle No script for "preversion" in "@engineer-cli-dev/core", continuing
 32 silly lifecycle No script for "preversion" in "@engineer-cli-dev/utils", continuing
 33 verbose version @engineer-cli-dev/core has no lockfile. Skipping lockfile update.
 34 verbose version @engineer-cli-dev/utils has no lockfile. Skipping lockfile update.
-35 silly lifecycle No script for "version" in "@engineer-cli-dev/utils", continuing
-36 silly lifecycle No script for "version" in "@engineer-cli-dev/core", continuing
+35 silly lifecycle No script for "version" in "@engineer-cli-dev/core", continuing
+36 silly lifecycle No script for "version" in "@engineer-cli-dev/utils", continuing
 37 verbose version Updating root package-lock.json
-38 silly lifecycle No script for "version" in "engineer001-cli", continuing
+38 silly lifecycle No script for "version" in "engineer-cli-dev", continuing
 39 silly gitAdd [
-39 silly gitAdd   'packages/utils/package.json',
 39 silly gitAdd   'packages/core/package.json',
+39 silly gitAdd   'packages/utils/package.json',
 39 silly gitAdd   'lerna.json',
 39 silly gitAdd   'package-lock.json'
 39 silly gitAdd ]
-40 silly gitCommit v0.0.10
-41 verbose git [ 'commit', '-m', 'v0.0.10' ]
-42 silly gitTag v0.0.10
-43 verbose git [ 'tag', 'v0.0.10', '-m', 'v0.0.10' ]
+40 silly gitCommit v0.0.11
+41 verbose git [ 'commit', '-m', 'v0.0.11' ]
+42 silly gitTag v0.0.11
+43 verbose git [ 'tag', 'v0.0.11', '-m', 'v0.0.11' ]
 44 silly lifecycle No script for "postversion" in "@engineer-cli-dev/core", continuing
 45 silly lifecycle No script for "postversion" in "@engineer-cli-dev/utils", continuing
-46 silly lifecycle No script for "postversion" in "engineer001-cli", continuing
+46 silly lifecycle No script for "postversion" in "engineer-cli-dev", continuing
 47 info git Pushing tags...
 48 silly gitPush origin main
 49 info publish Publishing packages to npm...
 50 notice Skipping all user and access validation due to third-party registry
 51 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
 52 silly getCurrentSHA
-53 verbose getCurrentSHA 0931a96f848d33d0b1451bd50b592f9a64e22986
-54 silly lifecycle No script for "prepublish" in "engineer001-cli", continuing
-55 silly lifecycle No script for "prepare" in "engineer001-cli", continuing
-56 silly lifecycle No script for "prepublishOnly" in "engineer001-cli", continuing
-57 silly lifecycle No script for "prepack" in "engineer001-cli", continuing
+53 verbose getCurrentSHA 5e23ba7055eda564ed190908ab3371c03efb5c87
+54 silly lifecycle No script for "prepublish" in "engineer-cli-dev", continuing
+55 silly lifecycle No script for "prepare" in "engineer-cli-dev", continuing
+56 silly lifecycle No script for "prepublishOnly" in "engineer-cli-dev", continuing
+57 silly lifecycle No script for "prepack" in "engineer-cli-dev", continuing
 58 verbose pack-directory packages/core
 59 verbose pack-directory packages/utils
 60 silly lifecycle No script for "prepublish" in "@engineer-cli-dev/core", continuing
 61 silly lifecycle No script for "prepublish" in "@engineer-cli-dev/utils", continuing
 62 silly lifecycle No script for "prepare" in "@engineer-cli-dev/core", continuing
 63 silly lifecycle No script for "prepare" in "@engineer-cli-dev/utils", continuing
-64 silly lifecycle No script for "prepublishOnly" in "@engineer-cli-dev/core", continuing
-65 silly lifecycle No script for "prepublishOnly" in "@engineer-cli-dev/utils", continuing
-66 silly lifecycle No script for "prepack" in "@engineer-cli-dev/core", continuing
-67 silly lifecycle No script for "prepack" in "@engineer-cli-dev/utils", continuing
-68 silly lifecycle No script for "postpack" in "@engineer-cli-dev/core", continuing
-69 verbose packed packages/core
-70 silly lifecycle No script for "postpack" in "@engineer-cli-dev/utils", continuing
-71 verbose packed packages/utils
-72 silly lifecycle No script for "postpack" in "engineer001-cli", continuing
+64 silly lifecycle No script for "prepublishOnly" in "@engineer-cli-dev/utils", continuing
+65 silly lifecycle No script for "prepublishOnly" in "@engineer-cli-dev/core", continuing
+66 silly lifecycle No script for "prepack" in "@engineer-cli-dev/utils", continuing
+67 silly lifecycle No script for "prepack" in "@engineer-cli-dev/core", continuing
+68 silly lifecycle No script for "postpack" in "@engineer-cli-dev/utils", continuing
+69 verbose packed packages/utils
+70 silly lifecycle No script for "postpack" in "@engineer-cli-dev/core", continuing
+71 verbose packed packages/core
+72 silly lifecycle No script for "postpack" in "engineer-cli-dev", continuing
 73 verbose publish @engineer-cli-dev/core
 74 verbose publish @engineer-cli-dev/utils
-75 silly FetchError: request to https://registry.npm.org/@engineer-cli-dev%2fcore failed, reason: getaddrinfo ENOTFOUND registry.npm.org
+75 silly FetchError: request to https://registry.npm.org/@engineer-cli-dev%2futils failed, reason: getaddrinfo ENOTFOUND registry.npm.org
 75 silly     at ClientRequest.<anonymous> (/Users/flyeagleyuan/.config/yarn/global/node_modules/minipass-fetch/lib/index.js:130:14)
 75 silly     at ClientRequest.emit (node:events:513:28)
 75 silly     at TLSSocket.socketErrorListener (node:_http_client:494:9)
@@ -91,7 +91,7 @@
 75 silly     at emitErrorNT (node:internal/streams/destroy:151:8)
 75 silly     at emitErrorCloseNT (node:internal/streams/destroy:116:3)
 75 silly     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-75 silly  FetchError: request to https://registry.npm.org/@engineer-cli-dev%2fcore failed, reason: getaddrinfo ENOTFOUND registry.npm.org
+75 silly  FetchError: request to https://registry.npm.org/@engineer-cli-dev%2futils failed, reason: getaddrinfo ENOTFOUND registry.npm.org
 75 silly     at ClientRequest.<anonymous> (/Users/flyeagleyuan/.config/yarn/global/node_modules/minipass-fetch/lib/index.js:130:14)
 75 silly     at ClientRequest.emit (node:events:513:28)
 75 silly     at TLSSocket.socketErrorListener (node:_http_client:494:9)
@@ -105,8 +105,8 @@
 75 silly   hostname: 'registry.npm.org',
 75 silly   type: 'system'
 75 silly }
-76 error ENOTFOUND request to https://registry.npm.org/@engineer-cli-dev%2fcore failed, reason: getaddrinfo ENOTFOUND registry.npm.org
-77 error FetchError: request to https://registry.npm.org/@engineer-cli-dev%2fcore failed, reason: getaddrinfo ENOTFOUND registry.npm.org
+76 error ENOTFOUND request to https://registry.npm.org/@engineer-cli-dev%2futils failed, reason: getaddrinfo ENOTFOUND registry.npm.org
+77 error FetchError: request to https://registry.npm.org/@engineer-cli-dev%2futils failed, reason: getaddrinfo ENOTFOUND registry.npm.org
 77 error     at ClientRequest.<anonymous> (/Users/flyeagleyuan/.config/yarn/global/node_modules/minipass-fetch/lib/index.js:130:14)
 77 error     at ClientRequest.emit (node:events:513:28)
 77 error     at TLSSocket.socketErrorListener (node:_http_client:494:9)
