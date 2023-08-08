@@ -19,9 +19,9 @@
     "url": "https://github.com/flyeagleyuan/engineer-cli/issues"
   },
   "homepage": "https://github.com/flyeagleyuan/engineer-cli#readme",
-  "workspaces": [
-    "packages/*"
-  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "lerna": "^6.1.0"
   }

@@ -1,6 +1,7 @@
 {
   "packages": [
-    "packages/*"
+    "core/*",
+    "utils/*"
   ],
   "useWorkspaces": true,
   "version": "0.0.16",
