@@ -23,6 +23,7 @@
     "access": "public"
   },
   "devDependencies": {
+    "@engineer-cli-dev/core": "^0.0.16",
     "lerna": "^6.1.0"
   }
 }
