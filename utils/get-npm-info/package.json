@@ -1,6 +1,6 @@
 {
   "name": "@engineer-cli-dev/get-npm-info",
-  "version": "0.0.17",
+  "version": "0.1.0",
   "description": "get npm info",
   "keywords": [
     "npm",

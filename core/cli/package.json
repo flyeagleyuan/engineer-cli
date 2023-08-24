@@ -1,6 +1,6 @@
 {
   "name": "@engineer-cli-dev/core",
-  "version": "0.0.10",
+  "version": "0.1.0",
   "description": "core",
   "author": "feixiao.yuan <feixiao.yuan@linkedsmile.com>",
   "homepage": "https://github.com/flyeagleyuan/engineer-cli/tree/main/packages/core#readme",
@@ -28,8 +28,8 @@
   },
   "dependencies": {
     "@engineer-cli-dev/get-npm-info": "file: ../../utils/get-npm-info",
-    "@engineer-cli-dev/utils": "file: ../../utils/utils",
     "@engineer-cli-dev/log": "file: ../../utils/log",
+    "@engineer-cli-dev/utils": "file: ../../utils/utils",
     "colors": "^1.4.0",
     "dotenv": "^16.3.1",
     "import-local": "^3.1.0",
