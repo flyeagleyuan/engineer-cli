@@ -26,7 +26,7 @@
 
 "@engineer-cli-dev/core@file:/Users/flyeagleyuan/workspace/engineer-cli/core/cli":
   "resolved" "file:core/cli"
-  "version" "0.1.0"
+  "version" "0.1.1"
   dependencies:
     "@engineer-cli-dev/get-npm-info" "file: ../../utils/get-npm-info"
     "@engineer-cli-dev/log" "file: ../../utils/log"
@@ -46,7 +46,7 @@
 
 "@engineer-cli-dev/get-npm-info@file:/Users/flyeagleyuan/workspace/engineer-cli/utils/get-npm-info":
   "resolved" "file:utils/get-npm-info"
-  "version" "0.1.0"
+  "version" "0.1.1"
   dependencies:
     "axios" "^1.4.0"
     "semver" "^7.5.4"
@@ -57,7 +57,7 @@
 
 "@engineer-cli-dev/log@file:/Users/flyeagleyuan/workspace/engineer-cli/utils/log":
   "resolved" "file:utils/log"
-  "version" "0.1.0"
+  "version" "0.1.1"
   dependencies:
     "npmlog" "^7.0.1"
 
@@ -66,7 +66,7 @@
 
 "@engineer-cli-dev/utils@file:/Users/flyeagleyuan/workspace/engineer-cli/utils/utils":
   "resolved" "file:utils/utils"
-  "version" "0.1.0"
+  "version" "0.1.1"
 
 "@gar/promisify@^1.1.3":
   "integrity" "sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw=="
