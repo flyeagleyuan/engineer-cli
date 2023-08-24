@@ -26,7 +26,7 @@
 
 "@engineer-cli-dev/core@file:/Users/flyeagleyuan/workspace/engineer-cli/core/cli":
   "resolved" "file:core/cli"
-  "version" "0.0.17"
+  "version" "0.1.0"
   dependencies:
     "@engineer-cli-dev/get-npm-info" "file: ../../utils/get-npm-info"
     "@engineer-cli-dev/log" "file: ../../utils/log"
@@ -46,18 +46,18 @@
 
 "@engineer-cli-dev/get-npm-info@file:/Users/flyeagleyuan/workspace/engineer-cli/utils/get-npm-info":
   "resolved" "file:utils/get-npm-info"
-  "version" "0.0.17"
+  "version" "0.1.0"
   dependencies:
     "axios" "^1.4.0"
     "semver" "^7.5.4"
-    "url-join" "^5.0.0"
+    "url-join" "4.0.1"
 
 "@engineer-cli-dev/log@file: ../../utils/log":
   "resolved" "file:core/cli/utils/log"
 
 "@engineer-cli-dev/log@file:/Users/flyeagleyuan/workspace/engineer-cli/utils/log":
   "resolved" "file:utils/log"
-  "version" "0.0.17"
+  "version" "0.1.0"
   dependencies:
     "npmlog" "^7.0.1"
 
@@ -66,7 +66,7 @@
 
 "@engineer-cli-dev/utils@file:/Users/flyeagleyuan/workspace/engineer-cli/utils/utils":
   "resolved" "file:utils/utils"
-  "version" "0.0.17"
+  "version" "0.1.0"
 
 "@gar/promisify@^1.1.3":
   "integrity" "sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw=="
@@ -419,6 +419,41 @@
 "@nrwl/nx-darwin-x64@15.9.4":
   "integrity" "sha512-WKSfSlpVMLchpXkax0geeUNyhvNxwO7qUz/s0/HJWBekt8fizwKDwDj1gP7fOu+YWb/tHiSscbR1km8PtdjhQw=="
   "resolved" "https://registry.npmjs.org/@nrwl/nx-darwin-x64/-/nx-darwin-x64-15.9.4.tgz"
+  "version" "15.9.4"
+
+"@nrwl/nx-linux-arm-gnueabihf@15.9.4":
+  "integrity" "sha512-a/b4PP7lP/Cgrh0LjC4O2YTt5pyf4DQTGtuE8qlo8o486UiofCtk4QGJX72q80s23L0ejCaKY2ULKx/3zMLjuA=="
+  "resolved" "https://registry.npmjs.org/@nrwl/nx-linux-arm-gnueabihf/-/nx-linux-arm-gnueabihf-15.9.4.tgz"
+  "version" "15.9.4"
+
+"@nrwl/nx-linux-arm64-gnu@15.9.4":
+  "integrity" "sha512-ibBV8fMhSfLVd/2WzcDuUm32BoZsattuKkvMmOoyU6Pzoznc3AqyDjJR4xCIoAn5Rf+Nu1oeQONr5FAtb1Ugow=="
+  "resolved" "https://registry.npmjs.org/@nrwl/nx-linux-arm64-gnu/-/nx-linux-arm64-gnu-15.9.4.tgz"
+  "version" "15.9.4"
+
+"@nrwl/nx-linux-arm64-musl@15.9.4":
+  "integrity" "sha512-iIjvVYd7+uM4jVD461+PvU5XTALgSvJOODUaMRGOoDl0KlMuTe6pQZlw0eXjl5rcTd6paKaVFWT5j6awr8kj7w=="
+  "resolved" "https://registry.npmjs.org/@nrwl/nx-linux-arm64-musl/-/nx-linux-arm64-musl-15.9.4.tgz"
+  "version" "15.9.4"
+
+"@nrwl/nx-linux-x64-gnu@15.9.4":
+  "integrity" "sha512-q4OyH72mdrE4KellBWtwpr5EwfxHKNoFP9//7FAILO68ROh0rpMd7YQMlTB7T04UEUHjKEEsFGTlVXIee3Viwg=="
+  "resolved" "https://registry.npmjs.org/@nrwl/nx-linux-x64-gnu/-/nx-linux-x64-gnu-15.9.4.tgz"
+  "version" "15.9.4"
+
+"@nrwl/nx-linux-x64-musl@15.9.4":
+  "integrity" "sha512-67+/XNMR1CgLPyeGX8jqSG6l8yYD0iiwUgcu1Vaxq6N05WwnqVisIW8XzLSRUtKt4WyVQgOWk3aspImpMVOG3Q=="
+  "resolved" "https://registry.npmjs.org/@nrwl/nx-linux-x64-musl/-/nx-linux-x64-musl-15.9.4.tgz"
+  "version" "15.9.4"
+
+"@nrwl/nx-win32-arm64-msvc@15.9.4":
+  "integrity" "sha512-2rEsq3eOGVCYpYJn2tTJkOGNJm/U8rP/FmqtZXYa6VJv/00XP3Gl00IXFEDaYV6rZo7SWqLxtEPUbjK5LwPzZA=="
+  "resolved" "https://registry.npmjs.org/@nrwl/nx-win32-arm64-msvc/-/nx-win32-arm64-msvc-15.9.4.tgz"
+  "version" "15.9.4"
+
+"@nrwl/nx-win32-x64-msvc@15.9.4":
+  "integrity" "sha512-bogVju4Z/hy1jbppqaTNbmV1R4Kg0R5fKxXAXC2LaL7FL0dup31wPumdV+mXttXBNOBDjV8V/Oz1ZqdmxpOJUw=="
+  "resolved" "https://registry.npmjs.org/@nrwl/nx-win32-x64-msvc/-/nx-win32-x64-msvc-15.9.4.tgz"
   "version" "15.9.4"
 
 "@nrwl/tao@15.9.4":
